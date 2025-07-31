@@ -1,6 +1,6 @@
 # 🧪 Desafio Front-End - Cadastro de Usuários
 
-Este projeto é uma aplicação de cadastro de usuários construída com **React** e **Vite**, com persistência de dados via `localStorage`. Ele foi desenvolvido como parte de um teste técnico para vagas de desenvolvedor Front-End.
+Este projeto é uma aplicação de cadastro de usuários construída com **React** e **Vite**, com persistência de dados via `localStorage`.
 
 ---
 
