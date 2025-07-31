@@ -65,7 +65,9 @@ Hooks (useState, useEffect)
 Funções puras de validação e armazenamento
 
 ✍️ Sobre a Solução
+
 A aplicação foi desenvolvida com foco na simplicidade, clareza e aderência aos requisitos do desafio. O código foi modularizado em componentes reutilizáveis, com separação de responsabilidades e estrutura pensada para escalabilidade e manutenção.
 
 👨‍💻 Autor
+
 Desenvolvido por Luis Gustavo Ferreira Leite
