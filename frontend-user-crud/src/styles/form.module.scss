@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  input {
+    border: 1px solid $border-color;
+    color: $font-default;
+    padding: 0.5rem;
+    &:focus {
+      color: $font-focus;
+    }
+  }
+  .invalid {
+    border-color: $border-invalid;
+    color: $font-invalid;
+  }
+  button {
+    padding: 0.6rem;
+    background-color: $btn-bg;
+    color: white;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      opacity: $btn-hover-opacity;
+    }
+    &:disabled {
+      background-color: $btn-disabled-bg;
+      color: $btn-disabled-font;
+    }
+  }
+  .loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #fff;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
